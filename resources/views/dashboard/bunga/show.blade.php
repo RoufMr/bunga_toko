@@ -66,7 +66,7 @@
         <div class="price">Rp. {{ $barang->harga }}</div>
         <div class="buttons">
            {{-- <a href="" class="buy">buy now</a> --}}
-           <a href="{{ route('bunga.show', $barang->id) }}" class="cart">Edit</a>
+           <a href="{{ route('bunga.edit', $barang->id) }}" class="cart">Edit</a>
         </div>
      </div>
 
